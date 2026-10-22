@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: meena56922/gitops-demo:2.0
+          image: meena56922/gitops-demo:1.0
           ports:
             - containerPort: 5000
           readinessProbe:
